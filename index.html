@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="menu-icon">
+                <i class="fa fa-bars"></i>
+            </span>
+            <p class="nav-title">Modern Shopping</p>
+            <span class="cart-btn">
+                <i class="fa fa-cart-plus"></i>
+                <span class="cart-items">0</span>
+            </span>
+        </div>
+    </nav>
+
+    <!-- products -->
+    <section>
+        <div class="products">
+            <h2 class="section-title">Our Products</h2>
+            <!-- single products -->
+            <div class="products-center">
+                <!-- product-->
+                <!-- <div class="product">
+                    <div class="img-container">
+                        <img class="product-img" src="/images/product-1.jpeg" alt="p-1">
+                    </div>
+                    <div class="product-description">
+                        <p class="product-price">10.99 $</p>
+                        <p class="product-title">product title</p>
+                    </div>
+                    <button class="add-to-cart">add to cart</button>
+                </div> -->
+            </div>
+        </div>
+        <!-- products -->
+        <!-- cart section -->
+        <section class="cart-center">
+            <div class="backdrop"></div>
+
+            <!-- <button class="btn show-modal">show modal</button> -->
+            <div class="cart-container">
+                <div class="cart">
+                    <h3 class="cart-title">Your Cart</h3>
+                    <div class="cart-content">
+                        <!-- single item -->
+                        <!-- <div class="cart-item">
+                            <img class="cart-item-img" src="/images/product-1.jpeg" alt="p-1">
+                            <div class="cart-item-description">
+                                <h4>product title</h4>
+                                <h5>10.99 $</h5>
+                            </div>
+                            <div class="cart-item-conteoller">
+                                <i class="fas fa-chevron-up"></i>
+                                <p>1</p>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-trash-alt"></i>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="cart-footer">
+                        <span class="cart-total">total price : 90 $</span>
+                        <button class="btn cart-item-clear">clear cart</button>
+                        <button class="btn cart-item-confirm">confirm</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script type="module" src="/app.js"></script>
+    <!-- <script type="module" src="/ex.js"></script> -->
+</body>
+
+</html>
